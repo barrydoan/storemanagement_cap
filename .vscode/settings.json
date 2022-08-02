@@ -1,0 +1,9 @@
+{
+    "sqltools.connections": [
+        {
+            "dialect": "SQLite",
+            "name": "bookshop",
+            "database": "bookshop.db"
+        }
+    ]
+}

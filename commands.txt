@@ -1,0 +1,8 @@
+cds compile srv/say.cds --to edmx
+cds watch
+cds deploy --to sqlite:bookshop.db
+//deploy the application to hana
+cds deploy --to hana
+
+// set the environment to production and run the application
+CDS_ENV=production cds watch
